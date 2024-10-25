@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConcertManager
 {
-    public class Bands
+    public class Bands : Concerts
     {
         private string BandName { get; set; }
         private string Genre { get; set; }
